@@ -7,6 +7,6 @@ const e=[{name:"Mango",active:!0},{name:"Poly",active:!1},{name:"Ajax",active:!0
 },{}],"ZkgJ":[function(require,module,exports) {
 const t=(t,n)=>Math.floor(Math.random()*(n-t+1)+t),n=({id:n,amount:a})=>{const o=t(200,500);return new Promise((t,a)=>{setTimeout(()=>{Math.random()>.3?t({id:n,time:o}):a(n)},o)})},a=({id:t,time:n})=>{console.log(`Transaction ${t} processed in ${n}ms`)},o=t=>{console.warn(`Error processing transaction ${t}. Please try again later.`)};n({id:70,amount:150}).then(a).catch(o),n({id:71,amount:230}).then(a).catch(o),n({id:72,amount:75}).then(a).catch(o),n({id:73,amount:100}).then(a).catch(o);
 },{}],"Focm":[function(require,module,exports) {
-"use strict";require("./sass/main.scss"),require("./js/task01"),require("./js/task02"),require("./js/task03");
+"use strict";require("./sass/main.scss"),require("./js/task01"),require("./js/task02"),require("./js/task03"),console.log("hello");
 },{"./sass/main.scss":"clu1","./js/task01":"PSzY","./js/task02":"zFNq","./js/task03":"ZkgJ"}]},{},["Focm"], null)
-//# sourceMappingURL=/goit-js-hw-11-promisification/src.380c09c8.js.map
+//# sourceMappingURL=/goit-js-hw-11-promisification/src.092fd8a0.js.map
